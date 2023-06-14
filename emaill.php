@@ -7,10 +7,10 @@ if(isset($_POST['email']) && !empty($_POST['email'])) {
     $message = addslashes($_POST['message']);
 
     // Conexão ao banco de dados
-    $servername = "35.193.200.135";
-    $username = "dani";
-    $password = "";
-    $dbname = "usuarios";
+    $servername = " "
+    $username = " ";
+    $password = " ";
+    $dbname = " ";
 
     // Cria a conexão
     $conn = new mysqli($servername, $username, $password, $dbname);
